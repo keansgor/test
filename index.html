@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Tailwind</title>
+</head>
+
+<body>
+<main font>
+    <header class="bg-blue-500 fixed top-0 left-0 w-full z-50">
+        <nav class="h-16 max-w-5xl mx-8 lg:mx-auto flex justify-between items-center">
+            <a href="#home" class="text-xl font-bold text-white">8Counts</a>
+
+            <div id="nav__container" class="md:bg-transparent flex gap-x-20">
+                <ul id="nav__menu" class="flex flex-row gap-x-10">
+                    <li class="nav__item ">
+                        <a href="#about">About</a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#serivce">Service</a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#FAQ" >FAQ</a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#client" >Client</a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#contact" >Contact</a>
+                    </li>
+                </ul>
+
+                <div id="lang__group" class="font-bold">
+                    <span class="lang__option">EN</span>
+                    <span class="lang__option">|</span>
+                    <span class="lang__option">中文</span>
+                </div>
+            </div>
+
+            <i class="ri-function-line text-white text-xl md:hidden"></i>
+        </nav>
+    </header>
+
+    <section id="home" class="h-screen w-full">
+        <img src="img/home1.jpg" class="absolute top-0 left-0 h-full w-full object-cover object-center">
+
+        <div class="absolute inset-0 bg-gray-900 bg-opacity-30 z-10"></div>
+
+        <div class="max-w-5xl mx-8 lg:mx-auto h-5/6 grid relative content-center gap-y-12 z-20" >
+            <div class="grid gap-y-4 ">
+                <span class="text-white text-lg sm:text-2xl md:text-4xl font-normal uppercase">It's now or never</span>
+                <h1 class="text-white text-3xl sm:text-5xl md:text-6xl uppercase font-semibold mb-8"> Turn your <span class="font-bold">ideas</span>  <br> into <span class="font-bold">business</span></h1>
+                <a href="#about" class="bg-blue-500 px-6 py-3 w-36 rounded-lg text-white text-center font-semibold inline-block focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-opacity-80">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="max-w-5xl mx-8 lg:mx-auto">
+        <h2 class="text-blue-500 text-lg font-bold uppercase mb-4">About us</h2>
+        
+        <div class="about__container grid gap-y-8">
+            <div class="about__data grid gap-y-4 md:grid-cols-2 md:gap-x-8">
+                <p class="text-gray-500 text-justify font-semibold leading-7">
+                    8Counts was set up in the year 2003 by Chartered Secretaries and affiliates that have been 
+                    working with various corporate clients in Malaysia. It was initially established as a 
+                    corporate secretarial provider and later ventured into licensing and other corporate 
+                    compliances related services. Our efforts and contribution have earned us a reputation of 
+                    being “efficient solution provider” among our clients.
+                </p>
+                <img src="img/about1.jpg" class="h-auto w-full">
+            </div>
+
+            <div class="about__data grid gap-y-4 md:grid-cols-2 md:gap-x-8">
+                <p class="items-center text-gray-500 text-justify font-semibold leading-7 md:order-1">
+                    We provide a full range of services to various type of companies; from company setup, 
+                    corporate advisory, maintaining statutory records, outsourced accounting, audit, taxation, 
+                    payroll and HR services, to strategic and transactional advice and regulatory support, we 
+                    can provide you with the confidence and security that your business operations will have 
+                    valuable independent scrutiny.
+                </p>
+                <img src="img/about2.jpg" class="h-auto w-full">
+            </div>
+        </div>
+        
+    </section>
+
+</main>
+    
+</body>
+</html>

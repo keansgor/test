@@ -1,0 +1,63 @@
+
+/*============== REUSABLE CLASSES =============*/
+section{
+    padding: 5rem 0 2rem;
+}
+
+
+
+/*=================== BASE ===================*/
+html{
+    scroll-behavior: smooth;
+}
+
+.nav__item,
+.lang__option{
+    color: #fff;
+    font-weight: bold;
+}
+
+/*
+#home__section{
+    background: linear-gradient(hsla(205, 47%, 25%, 0.5), hsla(205, 47%, 25%, 0.5)), url('../img/home1.jpg');
+    background-size: cover;
+    background-position: 32%;
+}*/
+
+
+/*============== MEDIA QUERIES ===============*/
+@media screen and (max-width: 767px){
+    .nav__item{
+        color: rgb(107, 114, 128);
+    }
+
+    #nav__container{
+        background: rgb(238, 244, 252);
+        width: 45%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        padding: 4rem 2rem;
+    }
+
+    #nav__menu{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    #lang__group{
+        position: absolute;
+        bottom: 3.5rem;
+    }
+
+    .lang__option{
+        color: rgb(107, 114, 128);
+    }
+}
+
+
+/*========= SHOW MENU =========*/
+.show-menu{
+    right: 0;
+}
